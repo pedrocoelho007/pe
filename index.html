@@ -1,5 +1,64 @@
-<form action="https://formspree.io/f/mkgwypdn"> 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<form action="https://formspree.io/f/mkgwypdn" method="post"> 
+
+
+<body>
 </form>
-<input type="text">
-<input type="email">
-<input type="number">
+    <p>Digite seu nome completo</p>
+<input type="text" name="nome" placeholder="Rhuan Pinto Virgens" required>
+<br>
+<p>Digite seu email</p>
+<input type="email" name="email" value="@escola.pr.gov.br">
+<br>
+<p>Digite seu número de telefone</p>
+<input type="number" name="phone" placeholder="(ddd) XXXX-XXXX">
+ <br>
+<p>Você trabalha?</p>
+<input type="radio" name="work?" value="Sim"> Sim
+<input type="radio" name="work?" value="Não"> Não
+<br>
+<br>
+Seu estado
+<select name="estado">
+<option value="1">Acre</option>
+<option value="2">Rio de Janeiro</option>
+<option value="3">São Paulo</option>
+<option value="4">Paraná</option>
+<option value="5">Amazonas</option>
+<option value="6">Tocantins</option>
+<br>
+</select>
+<br>
+<br>
+<p>Sua idade</p>
+
+<select name="idade">
+<option value="1">entre 1 a 5</option>
+<option value="2">entre 5 a 10</option>
+<option value="3">entre 10 a 15</option>
+<option value="4">entre 15 a 20</option>
+<option value="5">entre 20 a 25</option>
+<option value="6">entre 25 a 30</option>
+<option value="7">30+</option>
+<br>
+</select>
+<section>
+
+
+<p>Reclame aqui</p>
+<textarea name="feedback" placeholder="Avaliação"></textarea>
+<br>
+<input type="checkbox" name="novidades" checked> Aceito receber novidadesda empresa
+ 
+<button type="submit">Enviar</button>
+   <button type="submit">Apagar</button>
+
+</section>
+</body>
+</html>
